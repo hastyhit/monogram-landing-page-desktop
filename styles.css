@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav bar */
+#nav-bar {
+    background-image: url(img/bg.jpg);
+    height: 630px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/bg.jpg');
+}
+
+/* top bar*/
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a2456;
+    padding: 10px;
+    font-size: 1rem;
+    height: 30px;
+    margin: 13px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+}
+
+/* removing list style and padding form ul top bar near right */
+.top-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* top bar near right a  */
+.top-bar a {
+    text-decoration: none;
+}
+
+/* top bar left */
+.top-bar-left {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.85rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* top bar right a style */
+
+.top-bar-left a {
+   color: #ff8b68;
+}
+
+/* top  bar monogram text */
+.mono {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.logo {
+    padding-top: 5px;
+}
+
+
+
+/* top bar right both */
+.top-bar-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+/* top bar near right */
+.top-bar-nearright ul {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.top-bar-nearright a {
+    color: #ff8b68;
+}
+
+/* top bar far right */
+.top-bar-farright {
+    display: flex;
+    gap:5px;
+    align-items: center;
+}
+
+.usd {
+    color: #ff8b68;
+}
+
+/* middle text top bar */
+
+.middle-text {
+    position: absolute;
+    top: 28%;
+    right: 36%;
+    font-size: 2.5rem;
+    color: #ff8b68;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-text {
+    position:absolute;
+    top: 50%;
+    right: 36%;
+    font-size: 1.2rem;
+    color: #ff8b68;
+    /* text-align: center; */
+}
+
+
+/* ------------------------------------------------ */
+/* -------------------------------------------------- */
+
+
+/* img  1 */
+
+.picture {
+    display: flex;
+    margin: 50px 115px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* img text */
+.console-h3, .console-p {
+    color: #1a2456;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/*customize part  */
+
+.customize-container {
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+/* customize container h1 and h4 */
+
+.customize-h1 {
+    padding-top: 200px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #1a2456;
+}
+
+.customize-h4 {
+    text-align: center;
+    margin-top: 14px;
+color: #1a2456;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+/* shop list */
+.shop-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    margin: 50px 115px;
+}
+
+.shop-list h3 {
+    color: #1a2456;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    background-color: rgb(26, 36, 86);
+    padding: 20px 100px;
+    justify-content: space-between;
+    color: #ff8b68;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* for list */
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* for a link */
+footer a {
+    text-decoration: none;
+    color: #ff8b68;
+}
+
+
+/* sub class */
+.sub {
+    width: 300px;
+}
+
+.social {
+    margin-top: 10px;
+}
